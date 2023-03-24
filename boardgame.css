@@ -1,0 +1,138 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-image:url(https://cdn.pixabay.com/photo/2020/11/15/21/18/chess-5747335_960_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+.firstnav{
+   height:80px;
+   width:auto;
+   display: flex;
+   justify-content:space-evenly;
+   font-size: larger;
+   padding: 20px;
+
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 140px;
+}
+.bar{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.search{
+    margin-top:10px ;
+    height:30px;
+    width:150px;
+}
+#mag{
+    background-color: gray;
+    width:30px;
+    height:30px;
+    margin-top:10px;
+    color:rgb(230, 208, 182);
+    text-align: center;
+    padding:5px;
+}
+.image{
+    height: 300px;
+    width:220px;
+    box-shadow: 2px 0px 10px  rgb(231, 65, 157);
+    border-radius: 15px;
+    border: none;
+    
+}
+.image:hover{
+transform:translateY(-40px);
+opacity: 0.7;
+border:white
+
+}
+#board{
+    color: blue;
+    
+}
+.board{
+    text-align: center;
+    color:rgb(236, 12, 12);
+    text-shadow: 2px 2px 20px rgb(175, 173, 173);
+}
+.home{
+    color: blue;
+}
+.drop{
+height:200px;
+width:270px;
+display: none;
+background-color: rgb(87, 81, 81);
+border-radius: 10%;
+color:aliceblue;
+position: relative;
+box-shadow: 5px 5px 20px wheat;
+padding:10px;
+z-index: 1;
+}
+#menu{
+    color: blue;
+}
+#menu:hover>.drop{
+    display:block;
+    position: absolute;
+
+}
+#carousel{
+    margin-top: 50px;
+}
+.footer{
+    height:85px;
+    text-align: center;
+    color:rgb(236, 219, 152);
+    padding:100px;
+}
+.names{
+    color:darkorange
+}
+.detail{
+    color:rgb(25, 226, 226)
+}
+#rate{
+    color:yellow;
+}
+ #insta{
+   color:rgb(233, 160, 184);
+   font-size:xx-large;
+}
+#face{
+    color:rgb(84, 84, 240);
+    background-color: antiquewhite;
+    font-size:xx-large;
+    border-radius: 20px;
+}
+#tweet{
+    color:rgb(50, 50, 87);
+    font-size:xx-large;
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+.footer> div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.but{
+    background:linear-gradient(rgb(69, 69, 245),rgb(93, 93, 204),rgb(156, 156, 228));
+    border-radius: 12px;
+    color:black;
+    border: none;
+}
+.but:hover{
+  color: antiquewhite;
+  background:blueviolet;
+
+}
